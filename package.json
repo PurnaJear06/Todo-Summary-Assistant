@@ -1,0 +1,55 @@
+{
+  "name": "todo-summary-assistant",
+  "version": "1.0.0",
+  "description": "A full-stack Todo application with AI-powered task summaries and Slack integration",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "install-client": "cd client && npm install",
+    "install-all": "npm install && npm run install-client",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint server.js",
+    "clean": "rm -rf node_modules client/node_modules"
+  },
+  "keywords": [
+    "todo",
+    "task-management",
+    "ai",
+    "deepseek",
+    "slack",
+    "productivity",
+    "react",
+    "nodejs",
+    "express"
+  ],
+  "author": {
+    "name": "Purna Jear",
+    "email": "purna.jear@example.com",
+    "url": "https://github.com/PurnaJear06"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PurnaJear06/Todo-Summary-Assistant.git"
+  },
+  "bugs": {
+    "url": "https://github.com/PurnaJear06/Todo-Summary-Assistant/issues"
+  },
+  "homepage": "https://github.com/PurnaJear06/Todo-Summary-Assistant#readme",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
